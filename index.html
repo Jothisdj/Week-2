@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Project</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="./calc.js"></script>
+</head>
+<body>
+    
+<div class="container">
+    <div class="calculator">
+       <div class="displayy" >
+        <input type="text" id="screen" name="display">
+       </div>
+       <div class="buttons">
+        <input type="button" id="screen" value="AC" class="topkey" onclick="clearscreen()">
+        <input type="button" value="+/-" class="topkey" onclick="btnclick('+/-')" >
+        <input type="button" value="%" onclick="btnclick('%')" class="topkey">
+        <input type="button" value="÷" class="sidekey" onclick="btnclick('/')" >
+       </div>
+       <div class="buttons"> 
+        <input type="button" value="7" onclick="btnclick(7)" class="numbers">
+        <input type="button" value="8" onclick="btnclick(8)" class="numbers">
+        <input type="button" value="9" onclick="btnclick(9)" class="numbers">
+        <input type="button" value="×" class="sidekey" onclick="btnclick('*')" >
+       </div>
+       <div class="buttons">
+        <input type="button" value="4" onclick="btnclick(4)" class="numbers">
+        <input type="button" value="5" onclick="btnclick(5)" class="numbers">
+        <input type="button" value="6" onclick="btnclick(6)" class="numbers">
+        <input type="button" value="-" class="sidekey" onclick="btnclick('-')">
+       </div>
+       <div class="buttons">
+        <input type="button" value="3" onclick="btnclick(3)" class="numbers">
+        <input type="button" value="2" onclick="btnclick(2)" class="numbers">
+        <input type="button" value="1" onclick="btnclick(1)" class="numbers">
+        <input type="button" value="+" class="sidekey" onclick="btnclick('+')">
+       </div>
+       <div class="buttons">
+        <input id="zero" type="button" value="0" onclick="btnclick(0)" class="numbers">
+        <input type="button" value="." class="numbers" onclick="btnclick('.')" >
+        <input type="button" value="=" onclick="btnclickequ()" class="sidekey">
+       </div>
+    </div>
+</div>
+
+
+</body>
+</html>
